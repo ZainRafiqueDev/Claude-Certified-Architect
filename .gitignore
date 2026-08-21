@@ -1,6 +1,4 @@
 # secrets / local env
-.env
-.env.local
 
 # python
 __pycache__/
@@ -11,7 +9,6 @@ venv/
 .pytest_cache/
 
 # editors / os
-.vscode/
 .idea/
 .DS_Store
 
@@ -23,3 +20,4 @@ ui/console/console_snapshot.html
 node_modules/
 package-lock.json
 package.json
+config.bat

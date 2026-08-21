@@ -10,6 +10,7 @@ scenarios/run.py — launcher for the six functional scenario apps.
 Each scenario's working app lives at scenarios/scenarioN_*/app.py. The original teaching
 walkthroughs (the *_*.py files) are still there and unchanged.
 """
+import utils.session
 import sys, glob, os, runpy, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent
